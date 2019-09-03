@@ -1,0 +1,33 @@
+@tailwind base;
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 400;
+  src: url(../fonts/ProximaNova-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: 500;
+  src: url(../fonts/Proxima-Nova-Bold.otf) format("opentype");
+}
+
+body {
+  font-family: Proxima Nova;
+}
+
+h1 {
+  @apply text-2xl;
+  font-family: Proxima Nova;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600;
+}
+
+@tailwind components;
+@tailwind utilities;
